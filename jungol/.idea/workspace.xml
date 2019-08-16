@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f20ff2f-dcfe-4a40-b929-07f62e2560f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SWEA/.idea/SWEA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SWEA/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SWEA/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SWEA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SWEA/D2/minmax.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SWEA/D2/minmax.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1f20ff2f-dcfe-4a40-b929-07f62e2560f0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +12,7 @@
     <session id="-1325264358">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
