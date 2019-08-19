@@ -1,3 +1,5 @@
+# 4865. [파이썬 S/W 문제해결 기본] 3일차 - 글자수
+
 T = int(input())
 
 for tc in range(1, T + 1):
