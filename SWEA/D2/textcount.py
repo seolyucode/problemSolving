@@ -16,3 +16,5 @@ for tc in range(1, T + 1):
 
     print('#', tc, sep='', end=' ')
     print(max(count.values()))
+
+    # print('#{} {}'.format(tc, max(count.values())))
