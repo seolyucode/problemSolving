@@ -20,5 +20,3 @@ for i in range(N):
             if plane[j][k] == i+1:
                 count += 1
     print(count)
-
-
