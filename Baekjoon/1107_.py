@@ -9,9 +9,9 @@
 # 숫자 버튼을 누르고 +/- 중 하나만 연속해서 눌러야 최소가 됨
 # + / - 누르는 횟수는 뺄셈을 이용
 
-n = int(input())
-m = int(input())
-broken = [False] * 10
+n = int(input())  # 이동해야할 채널
+m = int(input())  # 고장난 숫자 몇개인지
+broken = [False] * 10  # 고장난 버튼 기록할 broken 리스트
 
 if m > 0:
     a = list(map(int, input().split()))
