@@ -1,15 +1,12 @@
 import sys
-
 sys.stdin = open('input.txt', 'r')
 
-
-def display(arr):
-    for i in range(len(arr)):
-        for j in range(len(arr[i])):
-            print(arr[i][j], end=' ')
-        print()
-    print()
-
+# def display(arr):
+#     for i in range(len(arr)):
+#         for j in range(len(arr[i])):
+#             print(arr[i][j], end=' ')
+#         print()
+#     print()
 
 for tc in range(3):
     V, E = map(int, input().split())
