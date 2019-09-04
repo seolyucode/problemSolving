@@ -11,19 +11,23 @@ for tc in range(1, T+1):
 
     count = 0
 
+
     # 가로
     for i in range(N):
-        check = 0
+
         for j in range(N-K+1):
+            check = 0
             # if check == 1:
             #     break
             if puzzle[i][j] == 1:
-                if check == 1:
-                    break
+                # if check == 1:
+                #     break
                 for k in range(K):
                     if puzzle[i][j+k] == 0:
                         check = 1
                         break
+                if check == 1:
+                    continue
                 if j+k == N-1:
                     if j == 0:
                         count += 1
@@ -42,17 +46,20 @@ for tc in range(1, T+1):
     count2 = 0
 
     for i in range(N-K+1):
-        check2 = 0
+
         for j in range(N):
+            check2 = 0
             # if check2 == 1:
             #     break
             if puzzle[i][j] == 1:
-                if check2 == 1:
-                    break
+                # if check2 == 1:
+                #     break
                 for k in range(K):
                     if puzzle[i+k][j] == 0:
                         check2 = 1
                         break
+                if check2 == 1:
+                    continue
                 if i+k == N-1:
                     if i == 0:
                         count2 += 1
