@@ -35,4 +35,6 @@ for tc in range(3):
         lst[E_lst[2*i]].append(E_lst[2*i+1])
         # lst[E_lst[2*i+1]].append(E_lst[2*i])
 
-    print(lst)
+    path = []
+    visited = [i for i in range(1, V+1)]
+
