@@ -18,6 +18,7 @@ for tc in range(10):
     queue_max = []
 
     while queue:
+
         t = queue.pop(0)
         next_list = contact[t]
         contact[t] = []
@@ -26,9 +27,13 @@ for tc in range(10):
             visited[t] = True
             path.append(t)
 
+<<<<<<< HEAD
             queue_max.append(next_list)
 
         for i in next_list:
+=======
+        for i in contact[t]:
+>>>>>>> 4dc89960f3854a4e4b00486018a2758269b87880
             if visited[i] == False:
                 queue.append(i)
         # if visited[t] == False:
@@ -42,4 +47,7 @@ for tc in range(10):
 
 
     print(path)
+<<<<<<< HEAD
     print(queue_max)
+=======
+>>>>>>> 4dc89960f3854a4e4b00486018a2758269b87880
