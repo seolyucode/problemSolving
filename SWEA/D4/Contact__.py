@@ -17,10 +17,12 @@ for tc in range(10):
     path = []
 
     while queue:
+
         t = queue.pop(0)
         if visited[t] == False:
             visited[t] = True
             path.append(t)
+
         for i in contact[t]:
             if visited[i] == False:
                 queue.append(i)

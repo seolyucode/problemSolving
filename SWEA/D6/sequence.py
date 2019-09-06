@@ -1,5 +1,5 @@
 # 1267. [S/W 문제해결 응용] 10일차 - 작업순서
-
+import time  # 시간 체크
 import sys
 sys.stdin = open('input.txt', 'r')
 
@@ -26,6 +26,7 @@ sys.stdin = open('input.txt', 'r')
 #
 #     display(board)
 
+stime = time.time()  # 시간 체크
 for tc in range(10):
     V, E = map(int, input().split())
     E_lst = list(map(int, input().split()))
@@ -56,3 +57,4 @@ for tc in range(10):
         path.append(current)    # 현재 숫자는 지나온 경로이므로 저장
 
     print('#{} {}'.format(tc+1, ' '.join(list(map(str, path)))))
+    print(time.time()-stime)  # 시간 체크
