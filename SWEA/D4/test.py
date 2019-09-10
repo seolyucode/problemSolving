@@ -17,6 +17,7 @@ for t in range(1, T+1):
     while q:
         current_length = len(q)
         next_numbers = []
+
         for i in range(current_length):
             current = q.pop(0)
 
@@ -25,5 +26,6 @@ for t in range(1, T+1):
                     q.append(receive)
                     visited.append(receive)
                     next_numbers.append(receive)
+
         path.append(next_numbers)
     print(max(path[-2]))

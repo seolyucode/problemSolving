@@ -28,4 +28,4 @@ for t in range(1, T+1):
                     next_numbers.append(receive)
 
         path.append(next_numbers)
-    print(max(path[-2]))
+    print("#{} {}".format(tc, max(path[-2])))
