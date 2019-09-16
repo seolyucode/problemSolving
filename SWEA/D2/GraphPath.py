@@ -10,6 +10,9 @@
 #             dfs(y)
 #     return path
 
+import sys
+sys.stdin = open('GraphPath_input.txt', 'r')
+
 def dfs(x):
     global check
     global path
