@@ -39,3 +39,6 @@ for i in range(1, 11):
         break
 else:
     print(11)
+# for-else
+# for 가 break 안 당하고 정상종료 되었을 때 
+# else 실행됨
