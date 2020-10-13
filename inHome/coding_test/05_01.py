@@ -14,6 +14,10 @@ def solution(n, m, array):
     queue.append((0, 0, 1)) # 시작지점 걸음 수 
     visited[0][0] = 1
     while True:
+        # print("==========================")
+        # for line in visited:
+        #     print(line)
+        # print("==========================")
         x, y, count = queue.popleft() # (0, 0, 1)
         if (x == n - 1 and y == m - 1):
             return count 
